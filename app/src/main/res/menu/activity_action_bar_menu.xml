@@ -1,0 +1,13 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+			android:id="@+id/menu_toast"
+			android:icon="@drawable/ic_launcher"
+			android:title="Toast" app:showAsAction="ifRoom|withText"/>
+    
+    <item
+			android:id="@+id/menu_launch"
+			android:icon="@drawable/ic_launcher"
+			android:title="Second" app:showAsAction="ifRoom|withText"/>
+
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="com.charles.intro_androkotlin_demo">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>	
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".DemoSelector"
+		android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+	<activity
+            android:name=".BasicTextViewActivity"
+            android:label="@string/title_activity_basic_text_view" >
+        </activity>
+        <activity
+            android:name=".LinearLayoutDemoActivity"
+            android:label="@string/title_activity_linear_layout_demo" >
+        </activity>
+        <activity
+            android:name=".LayoutGravityActivity"
+            android:label="@string/title_activity_layout_gravity" >
+        </activity>
+        <activity
+            android:name=".BasicViewsActivity"
+            android:label="@string/title_activity_basic_views" >
+        </activity>
+        <activity
+            android:name=".ViewAttributesActivity"
+            android:label="@string/title_activity_view_attributes" >
+        </activity>
+	    <activity
+            android:name=".ButtonToastActivity"
+            android:label="@string/title_activity_button_toast" >
+        </activity>
+        <activity
+            android:name=".ListViewClicksActivity"
+            android:label="@string/title_activity_list_view_clicks" >
+        </activity>
+        <activity
+            android:name=".ExplicitIntentActivity"
+            android:label="@string/title_activity_explicit_intent" >
+        </activity>
+        <activity
+            android:name=".ImplicitIntentsActivity"
+            android:label="@string/title_activity_implicit_intents" >
+        </activity>
+	<activity
+            android:name=".IntentWithResultActivity"
+            android:label="@string/title_activity_intent_with_result" >
+        </activity>
+        <activity
+            android:name=".ActionBarMenuActivity"
+            android:label="@string/title_activity_action_bar_menu" >
+        </activity>
+        <activity
+            android:name=".SimpleBundleDemoActivity"
+            android:label="@string/title_activity_simple_bundle_demo" >
+        </activity>
+        <activity
+            android:name=".SimpleReturnResultActivity"
+            android:label="@string/title_activity_simple_return_result" >
+        </activity>
+        <activity
+            android:name=".BasicImageDownloadActivity"
+            android:label="@string/title_activity_basic_image_download" >
+        </activity>
+        <activity
+            android:name=".AsyncTaskPerformActivity"
+            android:label="@string/title_activity_async_task_perform" >
+        </activity>
+        <activity
+            android:name=".SmartImageDownloadActivity"
+            android:label="@string/title_activity_smart_image_download" >
+        </activity>
+	<activity
+            android:name=".SpinnerWithToastActivity"
+            android:label="@string/title_activity_spinner_with_toast" >
+        </activity>
+        <activity
+            android:name=".TimePickerDemoActivity"
+            android:label="@string/title_activity_time_picker_demo" >
+        </activity>
+        <activity
+            android:name=".ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
+        <activity
+            android:name=".GridViewDemoActivity"
+            android:label="@string/title_activity_grid_view_demo" >
+        </activity>
+        <activity
+            android:name=".PersistSettingsActivity"
+            android:label="@string/title_activity_persist_settings" >
+        </activity>
+        <activity
+            android:name=".ContactListActivity"
+            android:label="@string/title_activity_contact_list" >
+        </activity>
+	<activity
+            android:name=".PublishingInstructionsActivity"
+            android:label="@string/title_activity_publishing_instructions" >
+        </activity>
+    </application>
+
+</manifest>
